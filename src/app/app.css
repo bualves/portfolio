@@ -1,7 +1,7 @@
 h2 
 {
+  text-align: center;
   color: #38d219;
-  text-transform: uppercase;
 }
 
 footer {
@@ -37,3 +37,32 @@ body {
   0%, 50%, 100% { border-color: #c9d1d9; }
   25%, 75% { border-color: transparent; }
 }
+
+.footer {
+  background-color: #0d1117;
+  color: #c9d1d9;
+  font-family: 'Fira Code', monospace;
+  font-size: 14px;
+  padding: 15px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;   /* centraliza horizontalmente todo o conteúdo */
+  align-items: center;       /* alinha verticalmente ícones e texto */
+  gap: 10px;                 /* espaço entre ícones e texto */
+}
+
+.footer .social-icons a {
+  color: #c9d1d9;
+  margin: 0 5px;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+  color: #58a6ff;
+}
+
+
