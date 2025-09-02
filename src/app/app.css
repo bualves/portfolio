@@ -1,0 +1,39 @@
+h2 
+{
+  color: #38d219;
+  text-transform: uppercase;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #222;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+body {
+  font-family: 'Fira Code', monospace;;
+}
+
+.typing {
+  font-family: 'Fira Code', monospace;
+  font-size: 24px;
+  overflow: hidden;
+  border-right: 2px solid #c9d1d9;
+  white-space: nowrap;
+  width: 0;
+  animation: typing 3s steps(20) forwards, blink 0.7s steps(1) infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 300px; } /* ajuste para a largura do texto */
+}
+
+@keyframes blink {
+  0%, 50%, 100% { border-color: #c9d1d9; }
+  25%, 75% { border-color: transparent; }
+}
