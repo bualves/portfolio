@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+/* fundo preto global */
+html, body, app-root {
+  height: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Fira Code', monospace;
+}
+
+/* links claros */
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
